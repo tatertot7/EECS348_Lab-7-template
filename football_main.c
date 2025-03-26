@@ -14,11 +14,12 @@ int main() {
             prinf("Invalid Score.\n");
             break;
         }
-        //call print_comb from football.c
-        print_combinations(points);
         //call count_comb and print from football.c
         printf("Total combinations: %d\n", count_combinations(points));
+        //call print_comb from football.c
+        print_combinations(points);
+        
     }
-    
+
     return 0;
 }
