@@ -11,7 +11,7 @@ int main() {
 
         // if invalid number (0 or 1)
         if (points <= 1) {
-            prinf("Invalid Score.\n");
+            printf("Invalid Score.\n");
             break;
         }
         //call count_comb and print from football.c
