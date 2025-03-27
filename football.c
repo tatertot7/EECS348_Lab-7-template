@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "football.h"
 
 void print_combinations(int points) {
