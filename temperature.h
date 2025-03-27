@@ -40,6 +40,6 @@ float kelvin_to_celsius(float celsius);
  * 
  * @param temp the temperature value in celsius
  */
-void categorize_temperature(float celsius);
+void categorize_temperature(float temp_in_celsius);
 
 #endif /* __REPORT_H__ */
